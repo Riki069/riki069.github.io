@@ -7,11 +7,12 @@
   <script src="script.js"></script>
   <title>Kanye West Idézetek</title>
 </head>
-<body>
-  <div class="quote-box">
-    <h1>Kanye West Idézetek</h1>
-    <p id="quote">Töltés...</p>
-    <button onclick="fetchQuote()">Új idézet</button>
-  </div>
+<body onload="fetchQuote()">
+  <h1>Kanye West Quote Translator</h1>
+    <button onclick="fetchQuote()">Get New Quote</button>
+    <p id="quote">Loading...</p>
+    <button onclick="translateQuote()">Translate to Hungarian</button>
+    <p id="translated"></p>
+</body>
 </body>
 </html>
